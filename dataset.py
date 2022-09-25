@@ -6,7 +6,7 @@ from sklearn.utils import shuffle
 
 
 def load_train(train_path, image_size, classes):
-    images = []
+    images = [] #image array
     labels = []
     ids = []
     cls = []
