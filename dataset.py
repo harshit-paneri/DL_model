@@ -9,7 +9,7 @@ def load_train(train_path, image_size, classes):
     images = [] #image array
     labels = [] # label array
     ids = [] # id array
-    cls = []
+    cls = [] # classes array
 
     print('Reading training images')
     for fld in classes:   # assuming data directory has a separate folder for each class, and that each folder is named after the class
