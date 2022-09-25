@@ -8,7 +8,7 @@ from sklearn.utils import shuffle
 def load_train(train_path, image_size, classes):
     images = [] #image array
     labels = [] # label array
-    ids = []
+    ids = [] # id array
     cls = []
 
     print('Reading training images')
