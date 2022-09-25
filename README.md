@@ -1,1 +1,3 @@
-# DL_model
+# DL model
+
+Deep Learning Model
